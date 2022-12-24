@@ -1,0 +1,28 @@
+.cardHotel {
+    border: 1px black solid;
+    padding: 10px 0 0 10px;
+    border-radius: 10px;
+    width: 17%;
+    border: none;
+}
+.imagesHotel{
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.nameRating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ratingIcon{
+   font-size: 18px;
+}
+h3, h4 {
+    margin: 5px 0;
+}
+.colorGrey{
+    color: rgb(126 106 106 / 85%);
+    font-family: monospace;
+}

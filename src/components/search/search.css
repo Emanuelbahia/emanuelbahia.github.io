@@ -1,0 +1,55 @@
+/* al calendario le pongo z-index = 1 para q se muestre por encima del header q tiene un z-index = 0 */
+.calendar{
+    position: absolute;
+    z-index: 1;
+    top: 85px;
+    left: 900px
+}
+.searchContainer{
+    border: 1px solid rgb(161, 159, 159);
+    border-radius: 50px;
+    padding: 5px 15px;
+    box-shadow: -5px 6px 9px 0px #80808052;
+    display: flex;
+    align-items: center;
+}
+.searchInput{
+    border: none;
+    margin-right: 10px;
+    height: 20px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+.centerItems{
+    display: flex;
+    align-items: center;
+}
+
+.buttonFormSearch{
+    border: none;
+    background: none;
+}
+.wrapperAdults{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.buttonCounterAdults{
+    background-color: white;
+    border: 1px rgb(26, 174, 218) solid;
+    width: 25px;
+    height: 25px;
+}
+.containerAdultChildren{
+    width: 180px;
+    border: 1px black solid;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 85px;
+    background-color: white;
+    padding: 20px 15px;
+}

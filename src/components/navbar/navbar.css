@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.noLine{
+   text-decoration: none;
+}
+.navbar{
+   height: 120px;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   border-bottom: 1px solid grey;
+   
+   
+}
+.navbarContainer{
+   width: 100%;
+   max-width: 1700px;
+   color: black;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.spanName{
+   font-weight: bold;
+   font-size: 30px;
+}
+.buttonRegister{
+    border: none;
+    margin-right: 10px;  
+    color: black;
+    padding: 5px 10px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttonRegister:hover{ 
+   border-bottom: 2px solid rgb(237 29 158) ;
+}
+.logoNameContainer{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-left: 2%;
+}
+.logo{
+   border-radius: 5px;
+   height: 50px;
+   background-color: rgb(237 29 158);
+   color: white;
+   display: flex;
+   align-items: center;
+   padding: 0 15px;
+   margin-right: 10px;
+   font-size: 30px;
+}
