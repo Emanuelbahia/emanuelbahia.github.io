@@ -1,6 +1,7 @@
 const data = [
   {
     name: "Room in house",
+    id: 1,
     bathrooms: 1,
     bedrooms: 1,
     beds: 1,
@@ -32,6 +33,7 @@ const data = [
   },
   {
     name: "Hotel in the ocean",
+    id: 2,
     city: "Islas Maldivas",
     images: [
       "https://revistaelconocedor.com/wp-content/uploads/2018/02/maldivas7-1024x683.jpg",
@@ -55,6 +57,7 @@ const data = [
   },
   {
     name: "hotel room",
+    id: 3,
     city: "Rio de janeiro",
     images: [
       "https://www.orangesmile.com/extreme/img/w600/copacabana-beach_1.jpg",
@@ -80,6 +83,7 @@ const data = [
   },
   {
     name: "Room house",
+    id: 4,
     city: "Edimburgo",
     images: [
       "https://i0.wp.com/viajealpatrimonio.com/wp-content/uploads/2017/04/0265-ciudad-vieja-y-ciudad-nueva-de-edimburgo.jpg",
@@ -106,6 +110,7 @@ const data = [
   },
   {
     name: "Studio apartment",
+    id: 5,
     city: "Roma",
     images: [
       "https://historia.nationalgeographic.com.es/medio/2020/04/24/foro-romano_d37dd909_1200x630.jpg",
@@ -131,6 +136,7 @@ const data = [
   },
   {
     name: "Commerce - Dupleix",
+    id: 6,
     city: "Rome",
     images: [
       "https://a0.muscache.com/im/pictures/c027a6cf-1a06-4228-9cdd-b39f95b0b4dc.jpg?im_w=720",
@@ -156,6 +162,7 @@ const data = [
   },
   {
     name: "Room in boutique hotel",
+    id: 7,
     city: "Amsterdam",
     images: [
       "https://a0.muscache.com/im/pictures/miso/Hosting-49992714/original/e66017bc-ca03-4a9f-99d8-76016b90d149.png?im_w=720",
@@ -181,6 +188,7 @@ const data = [
   },
   {
     name: "MAGNIFICENT VIEW EIFFEL TOWER PRIVATE STUDIO AND BALCONY",
+    id: 8,
     city: "Londres",
     images: [
       "https://a0.muscache.com/im/pictures/miso/Hosting-19796151/original/e92d2f61-68b1-4977-ade9-e7bad78bd637.jpeg?im_w=720",
@@ -206,6 +214,7 @@ const data = [
   },
   {
     name: "Charm in Heart of Paris Vaugirard",
+    id: 9,
     city: "Colmar",
     images: [
       "https://a0.muscache.com/im/pictures/21f05d85-1f77-481f-9156-c590f76ddd63.jpg?im_w=720",
@@ -231,6 +240,7 @@ const data = [
   },
   {
     name: "Room in the heart of Paris",
+    id: 10,
     city: "Paris",
     images: [
       "https://a0.muscache.com/im/pictures/bfb3bdd5-22a6-4d02-8369-21d56660f34b.jpg?im_w=720",
@@ -256,6 +266,7 @@ const data = [
   },
   {
     name: "Room in the heart of Paris",
+    id: 11,
     city: "Australia",
     images: [
       "https://a0.muscache.com/im/pictures/miso/Hosting-53700221/original/a7799717-0751-4b7c-a6f1-59baff77a2ff.jpeg?im_w=720",
@@ -280,6 +291,7 @@ const data = [
   },
   {
     name: "Room in the heart of Paris",
+    id: 12,
     city: "Brasil",
     images: [
       "https://a0.muscache.com/im/pictures/bfb3bdd5-22a6-4d02-8369-21d56660f34b.jpg?im_w=720",
@@ -305,6 +317,7 @@ const data = [
   },
   {
     name: "Room in the heart of Paris",
+    id: 13,
     city: "Malaga",
     images: [
       "https://a0.muscache.com/im/pictures/miso/Hosting-43449093/original/49a62f19-7135-45ae-9811-441891d5279d.jpeg?im_w=720",
@@ -330,6 +343,7 @@ const data = [
   },
   {
     name: "Room in the heart of Paris",
+    id: 15,
     city: "Paris",
     images: [
       "https://a0.muscache.com/im/pictures/miso/Hosting-53700221/original/a7799717-0751-4b7c-a6f1-59baff77a2ff.jpeg?im_w=720",
@@ -354,6 +368,7 @@ const data = [
   },
   {
     name: "Room in the heart of Paris",
+    id: 16,
     city: "Paris",
     images: [
       "https://a0.muscache.com/im/pictures/miso/Hosting-43449093/original/49a62f19-7135-45ae-9811-441891d5279d.jpeg?im_w=720",

@@ -26,3 +26,16 @@ h3, h4 {
     color: rgb(126 106 106 / 85%);
     font-family: monospace;
 }
+.allCardsHotels{
+    width: 100%;
+    max-width: 1700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.containerHotels{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}

@@ -44,7 +44,7 @@ function Search() {
          adults: people.adults, 
          children: 0})
    }
-
+console.log(people.adults)
    //uso el useState para mostrar el calendario cuando quieran cambiar la fecha
    const [openDate, setOpenDate] = useState(false)
    const [date, setDate] = useState([

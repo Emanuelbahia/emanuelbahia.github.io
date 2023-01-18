@@ -1,3 +1,5 @@
+//en el store se guarda todo el estado de la aplicacion
+
 import { configureStore } from "@reduxjs/toolkit";
 import paramsSlice from "../reducers/params/paramsSlice";
 
