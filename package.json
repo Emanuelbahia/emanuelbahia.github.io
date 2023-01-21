@@ -24,6 +24,7 @@
     "react-material-ui-carousel": "^3.4.2",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.4.5",
+    "react-wavify": "^1.7.0",
     "react-yup": "^1.24.1",
     "yup": "^0.29.3"
   },

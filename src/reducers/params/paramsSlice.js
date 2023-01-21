@@ -1,11 +1,11 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  location: "barcelona",
-  checkin: "2023-05-16",
-  checkout: "2023-05-18",
-  adults: 1,
-  children: 0,
+  location: "",
+  checkin: "",
+  checkout: "",
+  adults: "",
+  children: "",
 };
 
 export const paramsSlice = createSlice({

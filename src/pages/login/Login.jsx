@@ -16,7 +16,8 @@ function Login() {
 
         let email = "emanuel@gmail.com";
         let password = 123456
-
+     
+        //si el email y la contraseña concuerdan se redirige al home
         if ( email === inputEmail.current.value && password === inputPassword.current.value ) {
             navigate("/");
         }
@@ -43,5 +44,3 @@ function Login() {
 }
 
 export default Login;
-/* 
-&& inputPassword.current.value === password */

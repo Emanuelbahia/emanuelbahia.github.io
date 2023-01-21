@@ -1,8 +1,9 @@
 import { useState } from "react"
 import { useDispatch } from "react-redux";
+import { setParams } from "../../reducers/params/paramsSlice";
 import { DateRange } from "react-date-range"
-//import { setParams } from "../../reducers/params/paramsSlice";
-//import { navigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
+
 //para el formato de la fecha
 import { format } from "date-fns";
 
@@ -18,6 +19,7 @@ import 'react-date-range/dist/theme/default.css'; // theme css file
 function Search() {
 
    const dispatch = useDispatch();
+   const navigate = useNavigate();
 
    const [openPeople, setOpenPeople] = useState(false)
    const [people, setPeople] = useState({
@@ -44,7 +46,7 @@ function Search() {
          adults: people.adults, 
          children: 0})
    }
-console.log(people.adults)
+
    //uso el useState para mostrar el calendario cuando quieran cambiar la fecha
    const [openDate, setOpenDate] = useState(false)
    const [date, setDate] = useState([
@@ -55,20 +57,15 @@ console.log(people.adults)
       }
    ])
 
- /*   dispatch(setParams({
-      location: ,
-      checkin: ,
-      checkout: ,
-      adults: ,
-   }))
-   navigate("/hotels")*/
+   const [search, setSearch] = useState("")
+   
 
     return ( 
        <div className="searchContainer">
           
              <div className="centerItems">
                <FaBed className="iconMargin"/> 
-               <input className="searchInput" type="text"  placeholder=" elige un destino..." />
+               <input className="searchInput" onChange= {e => { setSearch(e.target.value) }} type="text"  placeholder=" elige un destino..." />
              </div>
          
              <div className="centerItems">
@@ -113,7 +110,20 @@ console.log(people.adults)
                  </div>
                }
             </div>  
-             <button className="buttonFormSearch centerItems"> <FaSearch/> </button>
+             <button className="buttonFormSearch centerItems"
+              onClick= {() => {
+                 /**con el dispatch actualizo el estado de setParams y despues los leo con useSelector cuando hago la peticion a la API */
+                dispatch(setParams({
+                  location:  search ,
+                  checkin: format(date[0].startDate, "yyyy-MM-dd") ,
+                  checkout: format(date[0].endDate, "yyyy-MM-dd") ,
+                  adults: people.adults,
+                  children: people.children
+                }))
+                /**con el navigate lo redirijo a la pagina de hotels */
+                navigate("/hotels")
+             }} 
+             > <FaSearch/> </button>
           
        </div> 
        );

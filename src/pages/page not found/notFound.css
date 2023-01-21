@@ -1,0 +1,20 @@
+.body-404{
+    min-height: 100vh;
+    background-color: rgb(68, 68, 240);
+}
+.wave{
+    height: 100vh;
+    position: absolute
+}
+.wave-title{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h2-wave{
+   font-size: 7vw;
+}
+.h3-wave{
+    font-size: 4vw;
+}
