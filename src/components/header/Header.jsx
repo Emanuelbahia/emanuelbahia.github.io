@@ -4,7 +4,6 @@ import ImageList from '@material-ui/core/ImageList';
 import ImageListItem from '@material-ui/core/ImageListItem';
 import ImageListItemBar from '@material-ui/core/ImageListItemBar';
 import IconButton from '@material-ui/core/IconButton';
-//import StarBorderIcon from '@material-ui/icons/StarBorder';
 import image from "../../assets/images/aaron-burden-ufFIweqSPd4-unsplash.jpg" 
 import image1 from "../../assets/images/free-walking-tour-salzburg-7mAVe4zT45k-unsplash.jpg"
 import image2 from "../../assets/images/koukichi-takahashi-fZdX9BW8WDs-unsplash.jpg"
@@ -114,7 +113,7 @@ function Header() {
               }}
               actionIcon={
                 <IconButton aria-label={`star ${item.title}`}>
-                  {/* <StarBorderIcon className={classes.title} /> */}
+                  
                 </IconButton>
               }
             />

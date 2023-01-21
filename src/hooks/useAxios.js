@@ -1,7 +1,7 @@
 //para leer el estado y consumirlo uso useSelector, y para actualizarlo el useDispatch
 import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
-//import axios from "axios";
+import axios from "axios";
 
 const useAxios = (URL) => {
   const { location, checkin, checkout, adults, children } = useSelector(
