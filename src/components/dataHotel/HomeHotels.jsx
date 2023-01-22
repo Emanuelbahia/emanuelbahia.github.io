@@ -1,4 +1,4 @@
-import Carousel from 'react-material-ui-carousel';
+//import Carousel from 'react-material-ui-carousel';
 import { FaStar } from "react-icons/fa";
 import "./homeHotels.css"
 
@@ -8,13 +8,14 @@ function HomeHotels(props) {
     return ( 
         <div className="cardHotel">
             
-            <Carousel>
+            {/* <Carousel>
                 {
                      props.images.map((image, index) => {
                         return <li key={index}> <img className="imagesHotel" src= { image } /> </li>
                      })
                 }
-            </Carousel>
+            </Carousel> */}
+            <img className="imagesHotel" src= { props.images[0] } />
             <div className='nameRating' >
                <h3> { props.name }{", "}{ props.city } </h3>
                <span className='ratingIcon'> <FaStar/> {" "} { props.rating } </span>

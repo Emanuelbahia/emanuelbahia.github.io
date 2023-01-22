@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+/* import { makeStyles } from '@material-ui/core/styles';
 import ImageList from '@material-ui/core/ImageList';
 import ImageListItem from '@material-ui/core/ImageListItem';
 import ImageListItemBar from '@material-ui/core/ImageListItemBar';
@@ -12,11 +12,11 @@ import image4 from "../../assets/images/mike-swigunski-a_DGqJ5jLZQ-unsplash.jpg"
 import image5 from "../../assets/images/mike-swigunski-k9Zeq6EH_bk-unsplash.jpg"
 import image6 from "../../assets/images/milan-seitler-b4_CoS6_tXE-unsplash.jpg"
 import image7 from "../../assets/images/rj-baculo-P6lsvPvBEIM-unsplash.jpg"
-import image8 from "../../assets/images/vivek-kumar-7k1IKQZikSc-unsplash.jpg"
+import image8 from "../../assets/images/vivek-kumar-7k1IKQZikSc-unsplash.jpg" */
 import "./header.css"
 import SomeHotels from '../someHotels/SomeHotels';
 
-const useStyles = makeStyles((theme) => ({
+/* const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
     background:
       'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
   },
-}));
+})); */
 
 
  
@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
  
 
 function Header() {
-  const classes = useStyles();
+  /* const classes = useStyles();
 
   const itemData = [
     {
@@ -95,11 +95,11 @@ function Header() {
     
 
     
-  ];
+  ]; */
 
   return (
     <>
-    <div className='positionRelative'>
+    {/* <div className='positionRelative'>
     <div className={classes.root}  >
       <ImageList className={classes.imageList} cols={2.5}>
         {itemData.map((item) => (
@@ -121,7 +121,7 @@ function Header() {
         ))}
       </ImageList>
     </div>
-    </div >
+    </div > */}
     <SomeHotels />
     </>
   );
