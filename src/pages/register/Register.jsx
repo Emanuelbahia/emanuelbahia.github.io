@@ -5,8 +5,7 @@ import * as yup from "yup"
 
 function Register() {
 
-     
-    const auroraPicture = new URL("../../assets/images/lago.jpg", import.meta.url)
+      const auroraPicture =  new URL("../../assets/images/lago.jpg", import.meta.url) 
 
     const validationSchema = yup.object().shape({
           name: yup

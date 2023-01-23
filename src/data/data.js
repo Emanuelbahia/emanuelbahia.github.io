@@ -165,15 +165,12 @@ const data = [
     id: 7,
     city: "Amsterdam",
     images: [
-      "https://a0.muscache.com/im/pictures/miso/Hosting-31868079/original/4b415d12-69ad-4a6f-8d96-c4da19cd51dd.jpeg?im_w=720",
-      "https://a0.muscache.com/im/pictures/miso/Hosting-31868079/original/639a87d5-ea0e-43b2-8f80-eeb6fa250e4c.jpeg?im_w=720",
-      "https://a0.muscache.com/im/pictures/83941d3c-8124-482f-a2e3-c9c20aaca937.jpg?im_w=720",
-      /* "https://a0.muscache.com/im/pictures/miso/Hosting-49992714/original/e66017bc-ca03-4a9f-99d8-76016b90d149.png?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-49992714/original/e66017bc-ca03-4a9f-99d8-76016b90d149.png?im_w=720",
       "https://a0.muscache.com/im/pictures/miso/Hosting-49992714/original/b15b5001-c34c-41a5-ab8c-9984821cebe4.png?im_w=720",
       "https://a0.muscache.com/im/pictures/miso/Hosting-49992714/original/1141d3a2-eebe-4c1c-b48d-71cad7dbffcc.png?im_w=720",
       "https://a0.muscache.com/im/pictures/miso/Hosting-49992714/original/a5f5fbde-e529-48ca-8c93-12a5221d01e6.png?im_w=720",
       "https://a0.muscache.com/im/pictures/miso/Hosting-49992714/original/00bec9c8-a57c-4f0a-a9d9-7c01a17f95ed.png?im_w=720",
-      "https://a0.muscache.com/im/pictures/miso/Hosting-49992714/original/a3ac6d5a-1681-4c3d-ad1c-66934c195956.png?im_w=720", */
+      "https://a0.muscache.com/im/pictures/miso/Hosting-49992714/original/a3ac6d5a-1681-4c3d-ad1c-66934c195956.png?im_w=720",
     ],
     isSuperhost: false,
     rating: 4.56,
