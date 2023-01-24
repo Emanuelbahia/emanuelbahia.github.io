@@ -9,7 +9,7 @@ function Login() {
     const inputEmail = useRef(null);
     const inputPassword = useRef(null);
 
-    const loginPicture = new URL("../../assets/images/login.jpg", import.meta.url)
+    //const loginPicture = new URL("../../assets/images/login.jpg", import.meta.url)
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -38,7 +38,7 @@ function Login() {
                 <button className="button-login">Login</button>
             </form>
             </div>
-            <img className="imageLogin" src= { loginPicture } />
+            <img className="imageLogin" src= { "https://fotos.hoteles.net/articulos/playa-barceloneta-barcelona-3153-1.jpg" } />
         </div>
      );
 }

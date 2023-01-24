@@ -5,7 +5,7 @@ import * as yup from "yup"
 
 function Register() {
 
-      const auroraPicture =  new URL("../../assets/images/lago.jpg", import.meta.url) 
+     // const auroraPicture =  new URL("../../assets/images/lago.jpg", import.meta.url) 
 
     const validationSchema = yup.object().shape({
           name: yup
@@ -88,7 +88,7 @@ function Register() {
                 )}
                
             </Formik>   
-            <img className="img-aurora" src= { auroraPicture } />   
+            <img className="img-aurora" src= { "https://ipparaguay.com.py/wp-content/uploads/2022/10/Islas-Maldivas-donde-queda.jpg" } />   
       </div>
      );
 }
