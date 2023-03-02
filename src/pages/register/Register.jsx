@@ -62,27 +62,33 @@ function Register() {
                 {({ errors, touched }) => (
                   <Form className="form-register"  >
                         <h3 className="h3-register">Register</h3>
-                        
-                        <label className="label-register" htmlFor="name" >Name: </label>
-                        <Field className="field-register" type="text" id="name" name="name" placeholder="juan" />
-                        { errors.name && touched.name && <p className="p-error">{ errors.name }</p> }
-    
-                        <label className="label-register" htmlFor="surname" >Surname: </label>
-                        <Field className="field-register" type="text" id="surname" name="surname" placeholder="garcia" />
-                        { errors.surname && touched.surname && <p className="p-error">{ errors.surname }</p> }
-    
-                        <label className="label-register" htmlFor="email" >Email: </label>
-                        <Field className="field-register" type="email" id="email" name="email" placeholder="juangarcia@gmail.com" />
-                        { errors.email && touched.email && <p className="p-error">{ errors.email }</p>  }
-    
-                        <label className="label-register" htmlFor="password" >Password:</label>
-                        <Field className="field-register" type="password" id="password" name="password" />
-                        { errors.password && touched.password && <p className="p-error">{ errors.password }</p>  }
-    
-                        <label className="label-register" htmlFor="confirmPassword" >Confirm password:</label>
-                        <Field className="field-register" type="password" id="confirmPassword" name="confirmPassword" />
-                        { errors.confirmPassword && touched.confirmPassword && <p className="p-error">{ errors.confirmPassword }</p>  }
-    
+                        <div className="flex-labels">
+                              <div className="width-labels">
+                                    <label className="label-register" htmlFor="name" >Name: </label>
+                                    <Field className="field-register" type="text" id="name" name="name" placeholder="juan" />
+                                    { errors.name && touched.name && <p className="p-error">{ errors.name }</p> }
+                              </div>
+                              <div className="width-labels">
+                                    <label className="label-register" htmlFor="surname" >Surname: </label>
+                                    <Field className="field-register" type="text" id="surname" name="surname" placeholder="garcia" />
+                                    { errors.surname && touched.surname && <p className="p-error">{ errors.surname }</p> }
+                              </div>
+                              <div className="width-labels">
+                                    <label className="label-register" htmlFor="email" >Email: </label>
+                                    <Field className="field-register" type="email" id="email" name="email" placeholder="juangarcia@gmail.com" />
+                                    { errors.email && touched.email && <p className="p-error">{ errors.email }</p>  }
+                              </div>
+                              <div className="width-labels">
+                                    <label className="label-register" htmlFor="password" >Password:</label>
+                                    <Field className="field-register" type="password" id="password" name="password" />
+                                    { errors.password && touched.password && <p className="p-error">{ errors.password }</p>  }
+                              </div>
+                              <div className="width-labels">
+                                    <label className="label-register" htmlFor="confirmPassword" >Confirm password:</label>
+                                    <Field className="field-register" type="password" id="confirmPassword" name="confirmPassword" />
+                                    { errors.confirmPassword && touched.confirmPassword && <p className="p-error">{ errors.confirmPassword }</p>  }
+                              </div>
+                        </div>
                         <button className="button-register" type="submit">Register</button>
                   </Form>
                 )}

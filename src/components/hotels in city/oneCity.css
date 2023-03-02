@@ -1,28 +1,92 @@
-.cardHotel {
-    border: 1px black solid;
-    padding: 10px 0 0 10px;
-    border-radius: 10px;
-    width: 17%;
-    border: none;
+.divHotel {
+    padding: 2vw;
+    width: 80vw;   
 }
-.imagesHotel{
+.imageHotel{
     width: 100%;
-    height: 270px;
+    height: 50vw;
     object-fit: cover;
     border-radius: 10px;
 }
-.nameRating{
+.ratingAndRating{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: nowrap;
 }
-.ratingIcon{
-   font-size: 18px;
+.iconRating{
+    font-size: 4vw;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 h3, h4 {
-    margin: 5px 0;
+    margin: 1vw 0;
 }
-.colorGrey{
+.colorH4{
     color: rgb(126 106 106 / 85%);
     font-family: monospace;
+    font-size: 3vw;
+}
+.cityCard{
+    font-size: 3vw;
+}
+.priceH3{
+    font-size: 4.5vw;
+}
+.marginStar{
+    margin: 0 1vw;
+}
+
+/* tablet */
+
+@media (min-width: 481px){  
+
+    .divHotel{
+        width: 33vw;
+    }
+    .imageHotel{
+        height: 30vw;
+    }
+    .cityCard{
+        font-size: 2vw;
+    }
+    .iconRating{
+        font-size: 2vw;
+    }
+    .colorH4{
+        font-size: 1.5vw;
+    }
+    h3, h4{
+        margin: .5vw 0;
+    }
+    .priceH3{
+        font-size: 2vw;
+    }
+
+}
+
+/* destkop */
+
+@media (min-width: 1024px){  
+
+    .divHotel{
+        width: 23vw;
+    }
+    .imageHotel{
+        height: 16vw;
+    }
+    .cityCard{
+        font-size: 1vw;
+    }
+    .iconRating{
+        font-size: 1vw;
+    }
+    .colorH4{
+        font-size: .8vw;
+    }
+    .priceH3{
+        font-size: 1vw;
+    }
+
 }

@@ -1,13 +1,10 @@
 .cardHotel {
-    border: 1px black solid;
-    padding: 10px 0 0 10px;
-    border-radius: 10px;
-    width: 17%;
-    border: none;
+    padding: 2vw;
+    width: 50vw;
 }
 .imagesHotel{
     width: 100%;
-    height: 270px;
+    height: 45vw;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -17,12 +14,64 @@
     align-items: center;
 }
 .ratingIcon{
-   font-size: 18px;
+    font-size: 4vw;
+    font-weight: bold;
 }
 h3, h4 {
-    margin: 5px 0;
+    margin: 1vw 0;
 }
 .colorGrey{
     color: rgb(126 106 106 / 85%);
     font-family: monospace;
+    font-size: 3vw;
+}
+.city-card{
+    font-size: 4vw;
+}
+
+/* tablet */
+
+@media (min-width: 481px){  
+
+    .cardHotel{
+        width: 33vw;
+    }
+    .imagesHotel{
+        height: 30vw;
+    }
+    .city-card{
+        font-size: 2vw;
+    }
+    .ratingIcon{
+        font-size: 2vw;
+    }
+    .colorGrey{
+        font-size: 1.5vw;
+    }
+    h3, h4 {
+        margin: 0.5vw 0;
+    }
+}
+
+/* destkop */
+
+@media (min-width: 1024px){  
+
+    .cardHotel{
+        width: 23vw;
+    }
+    .imagesHotel{
+        height: 16vw;
+    }
+    .city-card{
+        font-size: 1vw;
+    }
+    .ratingIcon{
+        font-size: 1vw;
+    }
+    .colorGrey{
+        font-size: .8vw;
+    }
+    
+
 }

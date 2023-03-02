@@ -123,7 +123,10 @@ function Search() {
                 /**con el navigate lo redirijo a la pagina de hotels */
                 navigate("/hotels")
              }} 
-             > <FaSearch/> </button>
+             > 
+             <FaSearch className="searchIcon"/> 
+             <span className="searchButton">Buscar</span>
+             </button>
           
        </div> 
        );

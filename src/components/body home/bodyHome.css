@@ -1,0 +1,27 @@
+.height{
+    height: 400px;
+    width: 100%;
+}
+ .positionRelative{
+    z-index: 0;
+} 
+.container-bodyHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* tablet */
+
+@media (min-width: 481px){  
+
+}
+
+/* destkop */
+
+@media (min-width: 1024px){  
+
+    .container-bodyHome{
+        width: 90vw;
+    }
+}

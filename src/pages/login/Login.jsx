@@ -27,7 +27,6 @@ function Login() {
     return ( 
         <div className="centerLogin">
             <div className="absoluteLogin">
-            <h2 className="h2-login">Login</h2>
             <form className="form-login" onSubmit={ handleSubmit }>
                 <label className="label-login" htmlFor="" >Email</label>
                 <input className="input-login" type="text" name="" ref={ inputEmail } />

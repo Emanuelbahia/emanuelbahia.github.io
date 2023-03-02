@@ -1,6 +1,5 @@
 .allCardsHotels{
     width: 100%;
-    max-width: 1700px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -10,4 +9,20 @@
     display: flex;
     justify-content: center;
     position: relative;
+}
+
+/* tablet */
+
+@media (min-width: 481px){  
+
+}
+
+/* destkop */
+
+@media (min-width: 1024px){  
+
+    .allCardsHotels{
+        max-width: 1400px;
+        width: 75vw;
+    }
 }

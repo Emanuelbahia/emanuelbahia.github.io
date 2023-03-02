@@ -5,28 +5,27 @@
 }
 .img-aurora{
     width: 100%;
-    height: 900px;
+    height: 140vw;
     padding: 0; 
 }
 .h3-register{
-    font-size: 2vw;
-    font-weight: bold;
-    color: rgb(7 76 46);
+    font-size: 4vw;
+    color: white;
     display: flex;
     justify-content: center;
-    margin: 0;
 }
 .form-register{
     display: flex;
     flex-direction: column;
     align-items: center;
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(8px);
     padding: 1vw 2vw 2vw 2vw;
     border-radius: 10px;
-    width: 18vw;
+    width: 60vw;
     position: absolute;
-    margin-top: 120px;
+    margin-top: 20vw;
     box-shadow: -5px 3px 8px 0px white;
+    
 }
 .label-register{
     width: 100%;
@@ -35,21 +34,22 @@
     margin-bottom: 0.3vw;
     display: flex;
     justify-content: flex-start;
-    
+    font-size: 3.5vw;
 }
 .field-register{
     width: 100%;
-    height: 2.5vh;
+    height: 6vw;
     display: flex;
     justify-content: center;
-    padding-left: 5px;
+    padding-left: 2vw;
     background: #fdfdfd3b;
     border: none;
-    
+    margin-bottom: 2vw;
+    font-size: 3vw;
 }
 .button-register{
-    width: 101%;
-    margin-top: 1.5vw;
+    width: 95%;
+    margin: 2vw 0;
     background-color: rgb(7 76 46);
     height: 4vh;
     border-radius: 5px;
@@ -59,4 +59,76 @@
 .p-error{
     margin: 0;
     color: white;
+}
+.width-labels{
+    width: 100%;
+}
+.flex-labels{
+    width: 95%;
+}
+
+/* tablet */
+
+@media (min-width: 481px){  
+
+    .form-register{
+        width: 50vw;
+        margin-top: 15vw;
+    }
+    .h3-register {
+        font-size: 3vw;
+    }
+    .label-register{
+        font-size: 2.5vw;
+    }    
+    .field-register{
+        height: 4vw;
+        font-size: 2vw;
+    }
+    .button-register{
+        height: 6vw;
+    }
+    .img-aurora{
+        height: 120vw;
+    }
+    .width-labels{
+        width: 100%;
+    }
+}
+
+/* destkop */
+
+@media (min-width: 1024px){  
+
+    .form-register{
+        width: 60vw;
+        margin-top: 8vw;
+    }
+    .h3-register {
+        font-size: 2vw;
+    }
+    .label-register{
+        font-size: 1vw;
+    }    
+    .field-register{
+        height: 2vw;
+        font-size: 1vw;
+    }
+    .button-register{
+        width: 20vw;
+        height: 3vw;
+        margin: 1vw 0;
+    }
+    .img-aurora{
+        height: 60vw;
+    }
+    .flex-labels{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;  
+    }
+    .width-labels{
+        width: 48%;
+    }
 }

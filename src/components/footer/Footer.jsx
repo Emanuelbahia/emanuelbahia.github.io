@@ -17,12 +17,12 @@ function Footer() {
         <div className="footer"> 
              <div className="footerContainer">
                  <div>
-                    <BiCopyright /> YourHotel, inc. { " - " }
-                    <span>Terminos</span> { " - " }
-                    <span>Privacidad</span>
+                    <span className="footer-terms"> <BiCopyright /> YourHotel, inc. </span> { " - " }
+                    <span className="footer-terms">Terminos</span> { " - " }
+                    <span className="footer-terms">Privacidad</span>
                  </div>
                  <div>
-                     <span className="textDecoration" onClick={ () => { setShow(!show) } } >Ayuda y recursos</span>
+                     <span className="textDecoration footer-terms" onClick={ () => { setShow(!show) } } >Ayuda y recursos</span>
                  </div>
              </div>
         </div>

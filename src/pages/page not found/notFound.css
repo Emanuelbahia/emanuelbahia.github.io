@@ -18,3 +18,15 @@
 .h3-wave{
     font-size: 4vw;
 }
+
+/* tablet */
+
+@media (min-width: 481px){  
+
+}
+
+/* destkop */
+
+@media (min-width: 1024px){  
+
+}

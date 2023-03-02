@@ -1,4 +1,4 @@
-import Carousel from 'react-material-ui-carousel';
+import Carousel from 'react-bootstrap/Carousel';
 import { FaStar } from "react-icons/fa";
 import "./oneCity.css"
 
@@ -6,22 +6,22 @@ import "./oneCity.css"
 
 function OneCity(props) {
     return ( 
-        <div className="cardHotel">
+        <div className="divHotel">
             
              <Carousel>
                 {
                      props.images.map((image, index) => {
-                        return <li key={index}> <img className="imagesHotel" src= { image } /> </li>
+                        return <Carousel.Item key={ index }> <img className="imageHotel" src= { image } /> </Carousel.Item>
                      })
                 }
             </Carousel> 
             
-            <div className='nameRating' >
-               <h3> { props.name }{", "}{ props.city } </h3>
-               <span className='ratingIcon'> <FaStar/> {" "} { props.rating } </span>
+            <div className='ratingAndRating' >
+               <h3 className='cityCard'> { props.name }{", "}{ props.city } </h3>
+               <span className='iconRating'> <FaStar className='marginStar'/> {" "} { props.rating } </span>
             </div>
-            <h4 className='colorGrey'> { props.type } </h4>
-            <h3> { props.price.currency } { props.price.total } {" "} <span className='colorGrey'> noche </span> </h3>
+            <h4 className='colorH4'> { props.type } </h4>
+            <h3 className='priceH3'> { props.price.currency } { props.price.total } {" "} <span className='colorGrey'> noche </span> </h3>
             
         </div>
      );

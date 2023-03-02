@@ -3,11 +3,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 130px;
+    margin-top: 30vw;
 }
 .imageLogin{
     width: 100%;
-    height: 1000px;
+    height: 140vw;
 }
 .h2-login{
     color: black;
@@ -16,8 +16,9 @@
     font-weight: bold;
 }
 .form-login{
+    width: 52vw;
     border-radius: 10px;
-    padding: 2vw;
+    padding: 5vw 3vw;
     display: flex;
     flex-direction: column;
     backdrop-filter: blur(12px);
@@ -28,10 +29,13 @@
     font-weight: bold;
     margin-top: 1vw;
     margin-bottom: .3vw;
+    font-size: 4vw;
 }
 .input-login{
-    width: 15vw;
-    height: 2.5vh;
+    width: 100%;
+    margin: 1vw 0;
+    height: 6vw;
+    font-size: 4vw;
     background: none;
     backdrop-filter: blur(5px);
     border: none;
@@ -41,11 +45,67 @@
     margin-top: 3vw;
     background-color: rgb(66 0 44);
     border: none;
-    height: 4vh;
+    height: 8vw;
     border-radius: 5px;
     color: white;
+    font-size: 3vw;
 }
 .centerLogin{
     display: flex;
     justify-content: center;
+}
+
+/* tablet */
+
+@media (min-width: 481px){  
+
+    .absoluteLogin{
+        margin-top: 20vw;
+    }
+    .form-login{
+        width: 45vw;
+        padding: 3vw 2vw;
+    }
+    .label-login{
+        font-size: 2vw;
+    }
+    .input-login{
+        height: 4vw;
+    }
+    .button-login{
+        height: 6vw;
+    }
+    .imageLogin{
+        height: 100vw;
+    }
+}
+
+/* destkop */
+
+@media (min-width: 1024px){  
+
+    .absoluteLogin{
+        margin-top: 8vw;
+    }
+    .form-login{
+        width: 25vw;
+        padding: 2vw 1vw;
+    }
+    .label-login{
+        font-size: 1vw;
+    }
+    .input-login{
+        height: 2vw;
+        font-size: 1vw;
+        margin: .5vw 0;
+    }
+    .button-login{
+        height: 3vw;
+        font-size: 1vw;
+        margin-top: 2vw;
+    }
+    .imageLogin{
+        height: 80vw;
+    }
+
 }
