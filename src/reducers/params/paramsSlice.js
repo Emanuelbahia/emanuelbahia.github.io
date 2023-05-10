@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-
+//el reducer actualiza el estado
 const initialState = {
   location: "",
   checkin: "",
