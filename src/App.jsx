@@ -4,6 +4,7 @@ import Login from "./pages/login/login";
 import Register from "./pages/register/Register";
 import BodyHome from "./components/body home/BodyHome";
 import Hotels from "./pages/city hotels/Hotels";
+import NotFound from "./pages/page not found/notFound";
 
 function App() {
   
@@ -16,7 +17,7 @@ function App() {
           <Route path="login" element= { <Login/> } />
        </Route>
        {/* la cargo por afuera de la ruta (/) para que no me aparezca el navbar y footer */}
-       <Route path="*" element= { <Home/> } /> 
+       <Route path="*" element= { <NotFound/> } /> 
     </Routes> 
   )
 }
