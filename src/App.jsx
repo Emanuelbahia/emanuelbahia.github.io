@@ -15,6 +15,7 @@ function App() {
           <Route path="hotels/*" element= { <Hotels /> } />
           <Route path="register" element= { <Register/> } />
           <Route path="login" element= { <Login/> } />
+          <Route path="project-booking/" element= { <Home/> } />
        </Route>
        {/* la cargo por afuera de la ruta (/) para que no me aparezca el navbar y footer */}
        <Route path="*" element= { <NotFound/> } /> 
