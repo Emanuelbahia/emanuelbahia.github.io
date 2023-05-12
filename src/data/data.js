@@ -165,12 +165,12 @@ const data = [
     id: 7,
     city: "Amsterdam",
     images: [
-      "https://a0.muscache.com/im/pictures/miso/Hosting-49992714/original/e66017bc-ca03-4a9f-99d8-76016b90d149.png?im_w=720",
-      "https://a0.muscache.com/im/pictures/miso/Hosting-49992714/original/b15b5001-c34c-41a5-ab8c-9984821cebe4.png?im_w=720",
-      "https://a0.muscache.com/im/pictures/miso/Hosting-49992714/original/1141d3a2-eebe-4c1c-b48d-71cad7dbffcc.png?im_w=720",
-      "https://a0.muscache.com/im/pictures/miso/Hosting-49992714/original/a5f5fbde-e529-48ca-8c93-12a5221d01e6.png?im_w=720",
-      "https://a0.muscache.com/im/pictures/miso/Hosting-49992714/original/00bec9c8-a57c-4f0a-a9d9-7c01a17f95ed.png?im_w=720",
-      "https://a0.muscache.com/im/pictures/miso/Hosting-49992714/original/a3ac6d5a-1681-4c3d-ad1c-66934c195956.png?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-43449093/original/49a62f19-7135-45ae-9811-441891d5279d.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/4a07fe2a-8c53-47ff-9093-7e1732972f4d.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/e8e77ec9-966c-407e-9ff6-f75231b9fbb5.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f37c0947-9f4e-409a-b98e-8db0f37d3e8f.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/daa9323f-e8be-4c3d-9068-f6331ad5316a.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/c3b8456c-4979-458e-a739-1528ac6672cc.jpg?im_w=720",
     ],
     isSuperhost: false,
     rating: 4.56,
@@ -194,8 +194,6 @@ const data = [
       "https://a0.muscache.com/im/pictures/miso/Hosting-19796151/original/e92d2f61-68b1-4977-ade9-e7bad78bd637.jpeg?im_w=720",
       "https://a0.muscache.com/im/pictures/miso/Hosting-19796151/original/ac05b3bc-8c61-4043-8052-b6e5e4268a63.jpeg?im_w=720",
       "https://a0.muscache.com/im/pictures/miso/Hosting-19796151/original/7f22b05c-92c0-4445-9fb1-fd4e43f8968e.jpeg?im_w=720",
-      "https://a0.muscache.com/im/pictures/miso/Hosting-19796151/original/3634c659-a275-4055-bd23-d59d3f72a64c.jpeg?im_w=720",
-      "https://a0.muscache.com/im/pictures/miso/Hosting-19796151/original/421fa4fc-e80b-4de1-8152-5443c8dfdf0e.jpeg?im_w=720",
       "https://a0.muscache.com/im/pictures/miso/Hosting-19796151/original/b11b9c72-0b16-4ba3-8823-84a9050e8672.jpeg?im_w=720",
     ],
     isSuperhost: false,
@@ -245,9 +243,6 @@ const data = [
     images: [
       "https://a0.muscache.com/im/pictures/bfb3bdd5-22a6-4d02-8369-21d56660f34b.jpg?im_w=720",
       "https://a0.muscache.com/im/pictures/f65c5dd7-9235-4f14-a2dc-ebe670756bc3.jpg?im_w=720",
-      "https://a0.muscache.com/im/pictures/58294f26-2ba5-4399-9f44-be1808395b86.jpg?im_w=720",
-      "https://a0.muscache.com/im/pictures/553d8130-0cc2-4f0d-ade1-ea586661280a.jpg?im_w=720",
-      "https://a0.muscache.com/im/pictures/26d29ef6-83a1-4909-8d1c-c6d4d4dfc634.jpg?im_w=720",
       "https://a0.muscache.com/im/pictures/c03fd951-8bf3-45bb-8d33-df93c4e75184.jpg?im_w=720",
     ],
     isSuperhost: false,
@@ -261,7 +256,7 @@ const data = [
     ],
     price: {
       currency: "USD",
-      total: 76,
+      total: 59,
     },
   },
   {
@@ -286,7 +281,7 @@ const data = [
     ],
     price: {
       currency: "USD",
-      total: 76,
+      total: 62,
     },
   },
   {
@@ -296,9 +291,6 @@ const data = [
     images: [
       "https://a0.muscache.com/im/pictures/bfb3bdd5-22a6-4d02-8369-21d56660f34b.jpg?im_w=720",
       "https://a0.muscache.com/im/pictures/f65c5dd7-9235-4f14-a2dc-ebe670756bc3.jpg?im_w=720",
-      "https://a0.muscache.com/im/pictures/58294f26-2ba5-4399-9f44-be1808395b86.jpg?im_w=720",
-      "https://a0.muscache.com/im/pictures/553d8130-0cc2-4f0d-ade1-ea586661280a.jpg?im_w=720",
-      "https://a0.muscache.com/im/pictures/26d29ef6-83a1-4909-8d1c-c6d4d4dfc634.jpg?im_w=720",
       "https://a0.muscache.com/im/pictures/c03fd951-8bf3-45bb-8d33-df93c4e75184.jpg?im_w=720",
     ],
     isSuperhost: false,
@@ -312,7 +304,7 @@ const data = [
     ],
     price: {
       currency: "USD",
-      total: 76,
+      total: 56,
     },
   },
   {
@@ -338,7 +330,7 @@ const data = [
     ],
     price: {
       currency: "USD",
-      total: 76,
+      total: 43,
     },
   },
   {
@@ -363,7 +355,7 @@ const data = [
     ],
     price: {
       currency: "USD",
-      total: 76,
+      total: 57,
     },
   },
   {
@@ -389,7 +381,7 @@ const data = [
     ],
     price: {
       currency: "USD",
-      total: 76,
+      total: 36,
     },
   },
 ];

@@ -5,12 +5,12 @@ import OneHotel from "../../components/one hotel/OneHotel";
 
 function Hotels() {
 
-    const { data } = useAxios('https://airbnb13.p.rapidapi.com/search-location');
+    const { data, loading } = useAxios('https://airbnb13.p.rapidapi.com/search-location');
 
     return ( 
         <>
            <Routes>
-               <Route index element= { <CityHotels data={ data } /> } />
+               <Route index element= { <CityHotels data={ data } loading={ loading }/> } />
                <Route path="hotelId" element= { <OneHotel/> } />
            </Routes>
         </>

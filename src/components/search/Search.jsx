@@ -125,7 +125,7 @@ function Search() {
              }} 
              > 
              <FaSearch className="searchIcon"/> 
-             <span className="searchButton">Buscar</span>
+             <span className="searchButton">Search</span>
              </button>
           
        </div> 

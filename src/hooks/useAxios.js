@@ -8,8 +8,10 @@ const useAxios = (URL) => {
     (state) => state.params
   );
   const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    setLoading(true);
     axios
       .request({
         method: "GET",
@@ -29,16 +31,17 @@ const useAxios = (URL) => {
         },
       })
       .then(function (response) {
-        console.log(response.data);
+        console.log(response.data.results);
         setData(response.data.results);
       })
+      .finally(() => setLoading(false))
       .catch(function (error) {
         console.error(error);
       });
     //pongo location para q se actualice cada vez q cambio de ciudad
   }, [location]);
 
-  return { data };
+  return { data, loading };
 };
 
 export default useAxios;

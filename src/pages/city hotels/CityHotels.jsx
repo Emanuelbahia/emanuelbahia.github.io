@@ -4,16 +4,16 @@
 import "./cityHotel.css"
 import OneCity from "../../components/hotels in city/OneCity";
 import Search from "../../components/search/Search";
+import Loading from "../../components/loading/Loading";
 
 
 
-function CityHotels({ data }) {
-
-
+function CityHotels({ data, loading }) {
 
     return (
       <div className="centerBody">
           <Search />
+          { loading ? <Loading/> : 
           <div className="containerHotel">
             <div className="allHotels">
               {
@@ -23,6 +23,7 @@ function CityHotels({ data }) {
               } 
             </div>
           </div> 
+          }
       </div>
      );
 }

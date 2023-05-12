@@ -1,6 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
 import { FaStar } from "react-icons/fa";
-import { Link } from 'react-router-dom';
 import "./oneCity.css"
 
 //es la estructura del componente cityHotels donde muestro todos los hoteles de una ciudad
@@ -9,7 +8,7 @@ function OneCity(props) {
 
     return ( 
 
-      <Link to= {`/hotels/${props.id}`} >
+      <a href= {props.deeplink} >
         <div className="divHotel">
             
              <Carousel>
@@ -28,7 +27,7 @@ function OneCity(props) {
             <h3 className='priceH3'> { props.price.currency } { props.price.total } {" "} <span className='colorGrey'> noche </span> </h3>
             
         </div>
-      </Link>  
+      </a>  
      );
 }
 

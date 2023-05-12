@@ -61,7 +61,6 @@ function Register() {
             >
                 {({ errors, touched }) => (
                   <Form className="form-register"  >
-                        <h3 className="h3-register">Register</h3>
                         <div className="flex-labels">
                               <div className="width-labels">
                                     <label className="label-register" htmlFor="name" >Name: </label>

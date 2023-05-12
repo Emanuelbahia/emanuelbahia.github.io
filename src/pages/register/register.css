@@ -72,24 +72,25 @@
 @media (min-width: 481px){  
 
     .form-register{
-        width: 50vw;
-        margin-top: 15vw;
+        width: 50vh;
+        margin-top: 12vh;
+        max-width: 40vh;
     }
     .h3-register {
         font-size: 3vw;
     }
     .label-register{
-        font-size: 2.5vw;
+        font-size: 1.7vh;
     }    
     .field-register{
-        height: 4vw;
-        font-size: 2vw;
+        height: 3vh;
+        font-size: 1.5vh;
     }
     .button-register{
-        height: 6vw;
+        height: 5vh;
     }
     .img-aurora{
-        height: 120vw;
+        height: 80vh;
     }
     .width-labels{
         width: 100%;
@@ -101,26 +102,27 @@
 @media (min-width: 1024px){  
 
     .form-register{
-        width: 60vw;
-        margin-top: 8vw;
+        width: 65vh;
+        margin-top: 15vh;
+        padding: 1vw;
+        max-width: 70vh;
     }
     .h3-register {
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
     .label-register{
-        font-size: 1vw;
+        font-size: 2vh;
     }    
     .field-register{
-        height: 2vw;
-        font-size: 1vw;
+        height: 3.5vh;
+        font-size: 2vh;
+        margin-bottom: 0;
+        width: 95%;
     }
     .button-register{
-        width: 20vw;
-        height: 3vw;
-        margin: 1vw 0;
-    }
-    .img-aurora{
-        height: 60vw;
+        width: 15vh;
+        height: 5vh;
+        margin: 4vh 1vh 2vh;
     }
     .flex-labels{
         display: flex;
@@ -129,6 +131,12 @@
         justify-content: space-between;  
     }
     .width-labels{
-        width: 48%;
+        width: 50%;
+    }
+    .img-aurora{
+        border-radius: 5px;
+    }
+    .register-body{
+        width: 75vw;
     }
 }
