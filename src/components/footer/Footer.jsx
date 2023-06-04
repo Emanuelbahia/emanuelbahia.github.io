@@ -12,8 +12,7 @@ function Footer() {
         <>
         {
             show && ( <Help/> )
-        }
-           
+        }       
         <div className="footer"> 
              <div className="footerContainer">
                  <div>

@@ -1,9 +1,6 @@
-
 import "./footer.css"
 
 function Help() {
-
-    
 
     return ( 
         <div className="helpContainer"  >
